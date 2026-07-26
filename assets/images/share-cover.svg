@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="在宋冬野的歌里，你是谁 · 数字票根">
+  <defs>
+    <linearGradient id="paperShade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".30"></stop>
+      <stop offset=".4" stop-color="#ffffff" stop-opacity="0"></stop>
+      <stop offset="1" stop-color="#171513" stop-opacity=".08"></stop>
+    </linearGradient>
+    <pattern id="perf" width="24" height="2" patternUnits="userSpaceOnUse">
+      <rect width="12" height="2" fill="#171513" fill-opacity=".45"></rect>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="#0f0e0d"></rect>
+  <rect x="48" y="40" width="1104" height="550" fill="#e8e0d1"></rect>
+  <rect x="48" y="40" width="1104" height="550" fill="url(#paperShade)"></rect>
+  <rect x="72" y="64" width="1056" height="502" fill="none" stroke="#171513" stroke-opacity=".45" stroke-width="2"></rect>
+
+  <text x="112" y="150" font-family="Songti SC, STSong, SimSun, serif" font-size="62" font-weight="600" fill="#171513">在宋冬野的歌里，你是谁</text>
+  <text x="112" y="196" font-family="Arial Narrow, Helvetica Neue, monospace" font-size="21" letter-spacing="6" fill="#78736b">SONG PERSONALITY TICKET</text>
+  <line x1="112" y1="230" x2="1088" y2="230" stroke="#171513" stroke-opacity=".25" stroke-width="2"></line>
+
+  <text x="112" y="300" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="27" fill="#302c26">回答十个问题，找到藏在你身上的那首歌，</text>
+  <text x="112" y="346" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="27" fill="#302c26">领取一张属于此刻的数字票根。</text>
+
+  <text x="112" y="424" font-family="Songti SC, STSong, SimSun, serif" font-size="24" fill="#576454">每个人身上，都藏着一首宋冬野。</text>
+
+  <rect x="112" y="470" width="976" height="2" fill="url(#perf)"></rect>
+  <text x="112" y="524" font-family="Arial Narrow, Helvetica Neue, monospace" font-size="20" letter-spacing="3" fill="#78736b">NO. SDY-________-____ · 长期有效 · 结果仅供文化娱乐体验</text>
+
+  <g transform="translate(960 372) rotate(-11)" fill="none" stroke="#8a3f35" stroke-opacity=".8" stroke-width="3">
+    <circle r="86"></circle>
+    <circle r="78"></circle>
+    <text x="0" y="-4" text-anchor="middle" font-family="Songti SC, STSong, serif" font-size="34" letter-spacing="4" fill="#8a3f35" stroke="none">检票</text>
+    <text x="0" y="32" text-anchor="middle" font-family="Arial Narrow, monospace" font-size="15" letter-spacing="4" fill="#8a3f35" stroke="none">ADMIT ONE</text>
+  </g>
+
+  <g stroke="#576454" stroke-width="3" fill="none" opacity=".85">
+    <path d="M760 150 h180"></path>
+    <circle cx="900" cy="118" r="18"></circle>
+    <path d="M790 178 h70"></path>
+  </g>
+</svg>
