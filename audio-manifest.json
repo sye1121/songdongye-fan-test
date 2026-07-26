@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "note": "音频清单仅供人工核对与后续工具使用；运行时唯一事实源是 data.js 的 SONG_AUDIO。所有路径为相对路径，兼容 GitHub Pages 子目录部署。",
+  "basePath": "./assets/audio/",
+  "tracks": [
+    { "songId": "guan-yi-bei", "title": "关忆北", "file": "guan-yi-bei.mp3", "src": "./assets/audio/guan-yi-bei.mp3" },
+    { "songId": "liu-ceng-lou", "title": "六层楼", "file": "liu-ceng-lou.mp3", "src": "./assets/audio/liu-ceng-lou.mp3" },
+    { "songId": "gei-bao-zhe-he-zi-de-gu-niang", "title": "给抱着盒子的姑娘", "file": "gei-bao-zhe-he-zi-de-gu-niang.mp3", "src": "./assets/audio/gei-bao-zhe-he-zi-de-gu-niang.mp3" },
+    { "songId": "guo-yuan-chao", "title": "郭源潮", "file": "guo-yuan-chao.mp3", "src": "./assets/audio/guo-yuan-chao.mp3" },
+    { "songId": "yu-wo-jiao-tan", "title": "与我交谈", "file": "yu-wo-jiao-tan.mp3", "src": "./assets/audio/yu-wo-jiao-tan.mp3" },
+    { "songId": "lian-yi-qun", "title": "连衣裙", "file": "lian-yi-qun.mp3", "src": "./assets/audio/lian-yi-qun.mp3" },
+    { "songId": "hou-ji", "title": "后记", "file": "hou-ji.mp3", "src": "./assets/audio/hou-ji.mp3" },
+    { "songId": "xie-xie-ni", "title": "谢谢你", "file": "xie-xie-ni.mp3", "src": "./assets/audio/xie-xie-ni.mp3" },
+    { "songId": "dong-xiao-jie", "title": "董小姐", "file": "dong-xiao-jie.mp3", "src": "./assets/audio/dong-xiao-jie.mp3" },
+    { "songId": "ge-zi", "title": "鸽子", "file": "ge-zi.mp3", "src": "./assets/audio/ge-zi.mp3" },
+    { "songId": "li-li-an", "title": "莉莉安", "file": "li-li-an.mp3", "src": "./assets/audio/li-li-an.mp3" },
+    { "songId": "kong-gang-qu", "title": "空港曲", "file": "kong-gang-qu.mp3", "src": "./assets/audio/kong-gang-qu.mp3" },
+    { "songId": "zai-xiang-xiang", "title": "再想想", "file": "zai-xiang-xiang.mp3", "src": "./assets/audio/zai-xiang-xiang.mp3" },
+    { "songId": "ban-ma-ban-ma", "title": "斑马，斑马", "file": "ban-ma-ban-ma.mp3", "src": "./assets/audio/ban-ma-ban-ma.mp3" },
+    { "songId": "zhi-dao", "title": "知道", "file": "zhi-dao.mp3", "src": "./assets/audio/zhi-dao.mp3" },
+    { "songId": "bu-mo-sheng-de-ren", "title": "不陌生的人", "file": "bu-mo-sheng-de-ren.mp3", "src": "./assets/audio/bu-mo-sheng-de-ren.mp3" },
+    { "songId": "an-he-qiao", "title": "安和桥", "file": "an-he-qiao.mp3", "src": "./assets/audio/an-he-qiao.mp3" },
+    { "songId": "ka-bi-ba-la-de-hai", "title": "卡比巴拉的海", "file": "ka-bi-ba-la-de-hai.mp3", "src": "./assets/audio/ka-bi-ba-la-de-hai.mp3" },
+    { "songId": "luo-yan", "title": "落雁", "file": "luo-yan.mp3", "src": "./assets/audio/luo-yan.mp3" }
+  ],
+  "excluded": [
+    { "label": "Intro", "file": "excluded-intro.mp3", "reason": "无词曲目，永不进入结果池" },
+    { "label": "雨 (Intro)", "file": "excluded-yu-intro.mp3", "reason": "Intro，永不进入结果池" },
+    { "label": "别 (Outro)", "file": "excluded-bie-outro.mp3", "reason": "Outro，永不进入结果池" }
+  ]
+}
